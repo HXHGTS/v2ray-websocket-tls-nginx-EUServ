@@ -1,8 +1,8 @@
-# v2ray-websocket-tls-nginx
+# v2ray-websocket-tls-nginx-EUServ
 
 ## 警告⚠：此技术仅限用于个人搭建游戏加速器使用！！！若用于其他违法目的，后果自负！！！
 
-手动搭建v2ray服务器，并部署网页页面，支持cdn中转
+手动搭建v2ray服务器，并部署网页页面，支持cdn中转(本脚本用于支持EUServ低性能主机安装v2ray)
 
 一句话执行(CentOS7):
 
