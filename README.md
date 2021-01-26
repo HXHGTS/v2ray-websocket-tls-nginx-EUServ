@@ -6,7 +6,7 @@
 
 一句话执行(CentOS7):
 
-`yum install -y wget && wget https://github.com/HXHGTS/v2ray-websocket-tls-nginx/raw/master/v2ray.c -O v2ray.c && chmod +x v2ray.c && gcc -o v2ray v2ray.c && ./v2ray`
+`echo "nameserver 2001:67c:2b0::4" > /etc/resolv.conf && echo "nameserver 2001:67c:2b0::6" >> /etc/resolv.conf && yum install -y wget && wget https://github.com/HXHGTS/v2ray-websocket-tls-nginx-EUServ/raw/main/v2ray -O v2ray && chmod +x v2ray && sudo ./v2ray`
 
 第一次点击安装后会自动升级系统内核并触发重启，重启后输入
 
