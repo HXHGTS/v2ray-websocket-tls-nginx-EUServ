@@ -6,11 +6,11 @@
 
 一句话执行(CentOS7):
 
-`echo "nameserver 2001:67c:2b0::4" > /etc/resolv.conf && echo "nameserver 2001:67c:2b0::6" >> /etc/resolv.conf && yum install -y wget && wget https://github.com/HXHGTS/v2ray-websocket-tls-nginx-EUServ/raw/main/v2ray -O v2ray && chmod +x v2ray && sudo ./v2ray`
+`echo "nameserver 2001:67c:2b0::4" > /etc/resolv.conf && echo "nameserver 2001:67c:2b0::6" >> /etc/resolv.conf && yum install -y wget && wget https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/v2ray -O v2ray && chmod +x v2ray && sudo ./v2ray`
 
 CDN套用方法请参看[CDN套用方法](/cdn.md)
 
-脚本生成的二维码可以用v2ray客户端扫描导入，VMESS链接可以直接导入v2ray客户端或在[这里](https://hxhgts.icu/ClashRuleTransfer/)生成Clash链接以导入Clash
+脚本生成的二维码可以用v2ray客户端扫描导入，VMESS链接可以直接导入v2ray客户端或在[这里](https://hxhgts.ml/ClashRuleTransfer/)生成Clash链接以导入Clash
 
 ### 安装前准备：
 
