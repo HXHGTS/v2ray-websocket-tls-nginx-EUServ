@@ -6,7 +6,7 @@
 
 一句话执行(CentOS7):
 
-`echo "curl https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/resolv.conf > /etc/resolv.conf && yum install -y wget && curl https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/v2ray > v2ray && chmod +x v2ray && sudo ./v2ray`
+`curl https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/resolv.conf > /etc/resolv.conf && yum install -y wget && curl https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/v2ray > v2ray && chmod +x v2ray && sudo ./v2ray`
 
 CDN套用方法请参看[CDN套用方法](/cdn.md)
 
