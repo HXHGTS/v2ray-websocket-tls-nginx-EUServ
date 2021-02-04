@@ -21,3 +21,7 @@ CDN套用方法请参看[CDN套用方法](/cdn.md)
 3.脚本执行需要root权限登录系统
 
 4.请在服务器防火墙放行tcp80(http)tcp443(https)端口(没动过防火墙就不要再改)
+
+#### C语言脚本下载
+
+[下载地址](https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/v2ray.c)
