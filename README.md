@@ -6,7 +6,7 @@
 
 一句话执行(CentOS7):
 
-`yum install curl -y && curl https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/resolv.conf > /etc/resolv.conf && curl https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/v2ray > v2ray && chmod +x v2ray && sudo ./v2ray`
+`echo 'nameserver 2001:67c:2b0::4' > /etc/resolv.conf && echo 'nameserver 2001:67c:2b0::6' >> /etc/resolv.conf && rm -f /etc/yum.repos.d/* && curl https://cdn.jsdelivr.net/gh/HXHGTS/GreatDNS/CentOS7-Base.repo > /etc/yum.repos.d/CentOS-Base.repo && yum clean all && yum makecache && curl https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/v2ray.c > v2ray.c && wget http://vault.centos.org/5.7/os/x86_64/CentOS/kernel-headers-2.6.18-274.el5.x86_64.rpm && rpm -ivh kernel-headers-2.6.18-274.el5.x86_64.rpm && yum install gcc -y && gcc -o v2ray v2ray.c && chmod +x v2ray && ./v2ray`
 
 CDN套用方法请参看[CDN套用方法](/cdn.md)
 
