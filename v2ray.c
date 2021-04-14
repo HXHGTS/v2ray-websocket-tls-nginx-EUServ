@@ -151,7 +151,7 @@ int install_v2ray() {
     fscanf(config, "%s", sni);
     fclose(config);
     system("setenforce 0");
-    system("yum install -y uuidgen unzip epel-release nginx bind-utils qrencode");
+    system("yum install -y unzip epel-release nginx bind-utils qrencode");
     printf("正在运行v2ray安装脚本. . .\n");
     system("curl https://cdn.jsdelivr.net/gh/v2fly/fhs-install-v2ray/install-release.sh > install-release.sh");
     system("chmod +x install-release.sh");
@@ -164,7 +164,7 @@ int install_v2ray() {
     printf("正在生成配置文件. . .\n");
     system("curl https://cdn.jsdelivr.net/gh/HXHGTS/v2ray-websocket-tls-nginx-EUServ/config.json.1 > /usr/local/etc/v2ray/config.json");
     printf("正在生成UUID. . .\n");
-    system("uuidgen > /usr/local/etc/v2ray/uuid.conf");
+    system("v2ray uuid > /usr/local/etc/v2ray/uuid.conf");
     config = fopen("/usr/local/etc/v2ray/uuid.conf", "r");
     fscanf(config, "%s", uuid);
     fclose(config);
